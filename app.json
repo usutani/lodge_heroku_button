@@ -14,7 +14,11 @@
     "SMTP_PORT"                 : "587",
     "SMTP_AUTH_METHOD"          : "plain",
     "SMTP_ENABLE_STARTTLS_AUTO" : "true",
-    "LODGE_THEME"               : "lodge"
+    "LODGE_THEME"               : "lodge",
+    "AWS_ACCESS_KEY"            : "",
+    "AWS_SECRET_KEY"            : "",
+    "AWS_REGION"                : "ap-northeast-1",
+    "S3_BUCKET_NAME"            : ""
   },
   "scripts": {
     "postdeploy": "bundle exec rake db:migrate"

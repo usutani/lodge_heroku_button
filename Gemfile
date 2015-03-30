@@ -115,4 +115,5 @@ if File.exist?(database_file)
   end
 else
   warn("Please configure your config/database.yml first")
+  gem "mysql2", '~> 0.3'
 end

@@ -73,6 +73,7 @@ group :development do
 end
 
 group :development, :test do
+  gem 'web-console', '~> 2.0'
   gem 'rspec-rails'
   gem 'rspec-its'
   gem 'rspec-parameterized', github: 'tomykaira/rspec-parameterized'

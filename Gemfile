@@ -41,7 +41,6 @@ gem 'unicorn', '~> 4.8'
 
 gem 'devise', '~> 3.2'
 gem 'awesome_print', '~> 1.2'
-gem 'foreigner', '~> 1.6'
 gem 'railroady', '~> 1.1'
 gem 'acts-as-taggable-on', '~> 3.3'
 gem 'redcarpet', '~> 3.1'

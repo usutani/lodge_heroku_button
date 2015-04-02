@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'nokogiri', '~> 1.6'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 4.1'
+gem 'rails', '~> 4.2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.2'
 # Use Uglifier as compressor for JavaScript assets
@@ -41,7 +41,6 @@ gem 'unicorn', '~> 4.8'
 
 gem 'devise', '~> 3.2'
 gem 'awesome_print', '~> 1.2'
-gem 'foreigner', '~> 1.6'
 gem 'railroady', '~> 1.1'
 gem 'acts-as-taggable-on', '~> 3.3'
 gem 'redcarpet', '~> 3.1'
@@ -73,6 +72,7 @@ group :development do
 end
 
 group :development, :test do
+  gem 'web-console', '~> 2.0'
   gem 'rspec-rails'
   gem 'rspec-its'
   gem 'rspec-parameterized', github: 'tomykaira/rspec-parameterized'

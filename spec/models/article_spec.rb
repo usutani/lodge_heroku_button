@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Article, :type => :model do
   it { should validate_presence_of(:title) }
-  it { should ensure_length_of(:title).is_at_most(100) }
+  it { should validate_length_of(:title).is_at_most(100) }
 
   it { should validate_presence_of(:body) }
 
@@ -143,7 +143,7 @@ RSpec.describe Article, :type => :model do
     end
 
     it "should create update-notification" do
-      expect(article.create_notification.state).to be_eql(:update)
+      expect(article.create_notification.state.to_sym).to be_eql(:update)
     end
   end
 

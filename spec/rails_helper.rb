@@ -66,7 +66,7 @@ RSpec.configure do |config|
     DatabaseCleaner.clean_with(:truncation)
   end
 
-  config.before(:suite, js: true) do
+  config.before(:suite) do
     Capybara.default_wait_time = 5
     DatabaseCleaner.clean_with(:truncation)
   end
@@ -87,11 +87,11 @@ RSpec.configure do |config|
     DatabaseCleaner.clean
   end
 
-  config.before(:suite, type: :feature) do
+  config.before(:suite) do
     Warden.test_mode!
   end
 
-  config.after(:suite, type: :feature) do
+  config.after(:suite) do
     Warden.test_reset!
   end
 end

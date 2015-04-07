@@ -53,7 +53,7 @@ gem 'yaml_db', git: 'https://github.com/jetthoughts/yaml_db', ref: 'fb4b6bd7e12d
 gem 'activerecord-import', '~> 0.5'
 gem 'counter_culture', '~> 0.1'
 gem 'rails_config', '~> 0.4'
-gem 'dotenv-rails', '~> 0.11'
+gem 'dotenv-rails', '~> 2.0'
 gem 'bootstrap-sass', '~> 3.2'
 gem 'bootswatch-rails', '~> 3.2'
 gem 'autoprefixer-rails', '~> 2.2'

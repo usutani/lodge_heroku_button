@@ -55,6 +55,7 @@ gem 'compass-rails', '~> 2.0'
 #gem 'whenever', :require => false
 gem 'omniauth-google-oauth2', '~> 0.2'
 gem 'carrierwave', '~> 0.10'
+gem 'fog', '~> 1.29'
 gem 'jquery-fileupload-rails', '~> 0.4'
 gem 'qiita-markdown'
 

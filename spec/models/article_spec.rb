@@ -136,6 +136,11 @@ RSpec.describe Article, :type => :model do
 
   describe :create_notification do
     let(:article) { FactoryGirl.create(:article) }
+    let(:user) { FactoryGirl.create(:user) }
+
+    before do
+      article.update_user_id = user.id
+    end
 
     it "should create new notification" do
       expect { article.create_notification }.to change(Notification, :count).by(1)

@@ -1,8 +1,5 @@
 source 'https://rubygems.org'
 
-
-gem 'nokogiri', '~> 1.6'
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 4.2'
 # Use SCSS for stylesheets
@@ -43,11 +40,8 @@ gem 'devise', '~> 3.2'
 gem 'awesome_print', '~> 1.2'
 gem 'railroady', '~> 1.1'
 gem 'acts-as-taggable-on', '~> 3.3'
-gem 'redcarpet', '~> 3.1'
 gem 'thin', '~> 1.6'
 gem 'kaminari', '~> 0.16'
-gem 'coderay', '~> 1.1'
-gem 'coderay_bash', '~> 1.0'
 gem 'diffy', '~> 3.0'
 gem 'yaml_db'
 gem 'activerecord-import', '~> 0.5'
@@ -62,6 +56,7 @@ gem 'compass-rails', '~> 2.0'
 gem 'omniauth-google-oauth2', '~> 0.2'
 gem 'carrierwave', '~> 0.10'
 gem 'jquery-fileupload-rails', '~> 0.4'
+gem 'qiita-markdown'
 
 group :development do
   gem 'bullet'
